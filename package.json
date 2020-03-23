@@ -1,5 +1,5 @@
 {
-  "name": "@arctica/test-base",
+  "name": "@arctica/test-kit",
   "version": "1.0.0",
   "description": "A unit and E2E test base",
   "main": "index.js",
