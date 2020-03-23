@@ -8,11 +8,11 @@ Version:    1.0
 module.exports = {
   transform: {
     "^.+\\.jsx?$":
-      "<rootDir>/node_modules/@arctica/test-base/jest-preprocess.js"
+      "<rootDir>/node_modules/@arctica/test-kit/jest-preprocess.js"
   },
   moduleNameMapper: {
     ".+\\.(css|styl|less|sass|scss)$": `identity-obj-proxy`,
-    ".+\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": `<rootDir>/node_modules/@arctica/test-base/__mocks__/file-mock.js`
+    ".+\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": `<rootDir>/node_modules/@arctica/test-kit/__mocks__/file-mock.js`
   },
   testPathIgnorePatterns: [`node_modules`, `.cache`],
   transformIgnorePatterns: [
@@ -26,7 +26,7 @@ module.exports = {
   },
   testURL: `http://localhost`,
   setupFiles: [
-    `<rootDir>/node_modules/@arctica/test-base/loadershim.js`
+    `<rootDir>/node_modules/@arctica/test-kit/loadershim.js`
   ],
   snapshotSerializers: ["enzyme-to-json/serializer"]
 }
