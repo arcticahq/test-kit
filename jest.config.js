@@ -16,7 +16,7 @@ module.exports = {
   },
   testPathIgnorePatterns: [`node_modules`, `.cache`],
   transformIgnorePatterns: [
-    "<rootDir>/node_modules/(?!(gatsby)/*|?!(@arctica)/*)"
+    "<rootDir>/node_modules/(?!(gatsby)/*|@arctica/*)"
   ],
   testRegex: "/.*(__tests__\\/.*)|(.*(test|spec))\\.js?$",
   collectCoverageFrom: ["src/components/**/*.js"],
