@@ -15,7 +15,9 @@ module.exports = {
     ".+\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": `<rootDir>/node_modules/@arctica/test-base/__mocks__/file-mock.js`
   },
   testPathIgnorePatterns: [`node_modules`, `.cache`],
-  transformIgnorePatterns: ["<rootDir>/node_modules/"],
+  transformIgnorePatterns: [
+    "<rootDir>/node_modules/(?!(gatsby)/*|?!(@arctica)/*)"
+  ],
   testRegex: "/.*(__tests__\\/.*)|(.*(test|spec))\\.js?$",
   collectCoverageFrom: ["src/components/**/*.js"],
   coverageDirectory: "reports/coverage",
