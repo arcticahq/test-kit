@@ -1,0 +1,30 @@
+{
+  "name": "@arctica/test-base",
+  "version": "1.0.0",
+  "description": "A unit and E2E test base",
+  "main": "index.js",
+  "dependencies": {
+    "babel-jest": "^25.1.0",
+    "codeceptjs": "^2.5.0",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "enzyme-to-json": "^3.4.4",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^25.1.0",
+    "playwright": "^0.11.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arcticahq/test-base.git"
+  },
+  "author": "Arctica",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arcticahq/test-base/issues"
+  },
+  "homepage": "https://github.com/arcticahq/test-base#readme"
+}
