@@ -20,12 +20,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/arcticahq/test-base.git"
+    "url": "git+https://github.com/arcticahq/test-kit.git"
   },
   "author": "Arctica",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/arcticahq/test-base/issues"
+    "url": "https://github.com/arcticahq/test-kit/issues"
   },
-  "homepage": "https://github.com/arcticahq/test-base#readme"
+  "homepage": "https://github.com/arcticahq/test-kit#readme"
 }
