@@ -3,8 +3,8 @@ const { setHeadlessWhen } = require('@codeceptjs/configure')
 setHeadlessWhen(process.env.CI)
 
 exports.config = {
-  tests: './specs/*_test.js',
-  output: './codecept',
+  tests: './tests/*_test.js',
+  output: './tests/output',
   helpers: {
     Playwright: {
       url: 'http://localhost:9000',
@@ -13,7 +13,7 @@ exports.config = {
     }
   },
   include: {
-    I: './codecept/steps_file.js'
+    I: './tests/steps/steps_file.js'
   },
   bootstrap: null,
   mocha: {},
