@@ -9,7 +9,9 @@ A base for unit and end to end testing with Jest and Codecept
 Create `jest.config`, extend the config as required:
 
 ```
-const config = require("@arctica/test-base/jest.config")
+const config = require("@arctica/test-kit/jest.config")
 
 module.exports = { ...config }
 ```
+
+### Codecept
