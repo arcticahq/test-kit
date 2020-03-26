@@ -18,7 +18,7 @@ module.exports = {
   transformIgnorePatterns: [
     "<rootDir>/node_modules/(?!(gatsby)/*|@arctica/*)"
   ],
-  testRegex: "/.*(__tests__\\/.*)|(.*(test|spec))\\.js?$",
+  testRegex: "src/(.*(test|spec))\\.js?$",
   collectCoverageFrom: ["src/components/**/*.js"],
   coverageDirectory: "reports/coverage",
   globals: {
